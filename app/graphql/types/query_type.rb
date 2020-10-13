@@ -11,11 +11,9 @@ Types::QueryType = GraphQL::ObjectType.define do
     }
   end
 
-  #Blog Field added
   field :blog, !Types::BlogType do
-   resolve ->(_obj, _args, ctx) {
+    resolve ->(_obj, _args, ctx) {
       ctx[:blog]
     }
   end
-
 end

@@ -1,5 +1,7 @@
 {
   "name": "graphql_task",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "graphqlite": "^1.3.0"
+  }
 }
